@@ -1,0 +1,75 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Panopio, Anika Beatrize</title>
+        
+        <meta charset="UTF-8">
+        
+        <meta name="author" content="Anika Beatrize S. Panopio">
+        
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        
+        <meta name="revised" content="17-12-2020">
+        
+        <style>
+            a {
+                box-sizing: border-box;
+                width: 100px;
+                padding: 10px;
+                float: left;
+                text-decoration: none;
+                font-family: monospace;
+                font-size: 20px;
+            }
+            
+            a.one {
+                background-color: maroon;
+                color: gold;
+                margin-right: 20px;
+            }
+            
+            a.two {
+                background-color: green;
+                color: silver;
+            }
+            
+            div {
+                box-sizing: border-box;
+                width: 200px;
+                border: 1px solid black;
+                height: 200px;
+            }
+            
+            div#one {
+                margin-top: 40px;
+            }
+            
+            div#one:target {
+                background-color: chocolate;
+                color: navy;
+                font-family: monospace;
+                font-size: 20px;
+            }
+            
+            div#two:target {
+                border: 10px dotted green;
+                background-color: black;
+                color: darkgoldenrod;
+                font-family: monospace;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <a class="one" href="#one">Link 1</a>
+        <a class="two" href="#two">Link 2</a>
+        <br>
+        <div id="one">
+            Div 1.
+        </div>
+        <br>
+        <div id="two">
+            Div 2.
+        </div>
+    </body>
+</html>
